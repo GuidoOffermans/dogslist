@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.dogs-list{
+  display: grid;
+  flex-wrap: wrap;
+}
+.dogs-list > div {
+  flex: 1 1 100px;
+}
+img{
+  width: 30%;
+  object-fit: cover;
+}
